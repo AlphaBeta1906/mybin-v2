@@ -78,7 +78,7 @@ export default function NewPaste(){
                     placeholder="Your code here..." 
                     onChange={HandleInput} 
                     value={input.content} 
-                    className="w-full h-60 text-lg p-2 my-2 rounded-lg border border-gray-700 focus:border-sky-700 focus:border-1 resize-y"  
+                    className="w-full h-96 text-lg p-2 my-2 rounded-lg border border-gray-700 focus:border-sky-700 focus:border-1 resize-y"  
                     name="content"/>
 
                     <button disabled={isSuccess} className="p-3 rounded-lg boder border-b-4 border-sky-500  hover:bg-sky-500 hover:text-white  text-sky-900 cursor-pointer disabled:bg-sky-400 disabled:text-white hover:-translate-y-1 hover:translate-x-1 my-5">
